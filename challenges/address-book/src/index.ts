@@ -1,3 +1,4 @@
+/* eslint-disable func-style */
 export class AddressBook {
   contacts = [];
 
