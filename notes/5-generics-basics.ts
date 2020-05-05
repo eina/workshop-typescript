@@ -1,3 +1,4 @@
+/* eslint-disable func-style */
 import { HasEmail } from "./1-basics";
 
 /**
@@ -6,16 +7,16 @@ import { HasEmail } from "./1-basics";
  */
 
 // // param determines the value of x
-// function wrappedValue(x: any) {
-//   return {
-//     value: x
-//   };
-// }
+function wrappedValue(x: any) {
+  return {
+    value: x
+  };
+}
 
 // // type param determines the type of x
-// interface WrappedValue<X> {
-//   value: X;
-// }
+interface WrappedValue<X> {
+  value: X;
+}
 
 // let val: WrappedValue<string[]> = { value: [] };
 // val.value;
